@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien Años de Soledad",
+    "autor": "Gabriel García Márquez",
+    "precio": 35000,
+    "categoria": "Novela",
+    "imagen": "https://www.rae.es/sites/default/files/portada_cien_anos_de_soledad_0.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "El Amor en los Tiempos del Cólera",
+    "autor": "Gabriel García Márquez",
+    "precio": 32000,
+    "categoria": "Novela",
+    "imagen": "https://ellectorespectador.wordpress.com/wp-content/uploads/2012/05/amor-en-los-tiempos-del-colera31.png"
+  },
+  {
+    "id": 3,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "precio": 40000,
+    "categoria": "Clásico",
+    "imagen": "https://imgv2-2-f.scribdassets.com/img/word_document/315233472/original/216x287/36867d8558/1757996730?v=1"
+  },
+  {
+    "id": 4,
+    "titulo": "La Odisea",
+    "autor": "Homero",
+    "precio": 28000,
+    "categoria": "Clásico",
+    "imagen": "https://www.loqueleo.com/co/uploads/2021/01/la-odisea-1.JPG"
+  },
+  {
+    "id": 5,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "precio": 20000,
+    "categoria": "Infantil",
+    "imagen": "https://cdn.bookey.app/20221121161223813/20221121161433575.png"
+  },
+  {
+    "id": 6,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "precio": 30000,
+    "categoria": "Distopía",
+    "imagen": "https://img.perlego.com/book-covers/3768359/9788446052661.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "precio": 27000,
+    "categoria": "Distopía",
+    "imagen": "https://libros-prohibidos.com/wp-content/uploads/2014/12/fh451-bc-2-20y23tr.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Crónica de una Muerte Anunciada",
+    "autor": "Gabriel García Márquez",
+    "precio": 25000,
+    "categoria": "Novela",
+    "imagen": "https://wmagazin.com/wp-content/uploads/2021/04/Cronicadeunamuerteanunciada-Colombia-1-633x1024.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Orgullo y Prejuicio",
+    "autor": "Jane Austen",
+    "precio": 26000,
+    "categoria": "Romance",
+    "imagen": "https://images.justwatch.com/poster/203481059/s718/orgullo-y-prejuicio.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "La Metamorfosis",
+    "autor": "Franz Kafka",
+    "precio": 24000,
+    "categoria": "Clásico",
+    "imagen": "https://imgv2-2-f.scribdassets.com/img/word_document/599804780/original/216x287/1897475dce/1752097653?v=1"
+  }
+]

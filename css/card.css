@@ -1,0 +1,35 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+    color: #008000;
+}
+
+img {
+    width: 120px;
+    max-width: 140px;
+    height: 180px;
+    object-fit: cover; /* recorta/ajusta para no deformarse */
+    display: block;
+    margin: 0 auto 10px;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "username": "admin",
+    "password": "1234",
+    "role": "admin",
+    "email": "admin@libreria.com"
+  },
+  {
+    "username": "mariana",
+    "password": "pass2025",
+    "role": "user",
+    "email": "mariana@gmail.com"
+  },
+  {
+    "username": "carlos",
+    "password": "libro2025",
+    "role": "user",
+    "email": "carlos@gmail.com"
+  },
+  {
+    "username": "andrea",
+    "password": "123abc",
+    "role": "user",
+    "email": "andrea@gmail.com"
+  },
+  {
+    "username": "sofia",
+    "password": "clave456",
+    "role": "user",
+    "email": "sofia@gmail.com"
+  }
+]
