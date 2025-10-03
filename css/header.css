@@ -4,3 +4,18 @@
     padding: 20px;
     text-align: center;
 }
+
+/* Estilo para la barra de redes sociales */   
+.social-bar {
+  background: #222;
+  padding: 5px;
+  text-align: right;
+}
+.social-bar a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 18px;
+}
+.social-bar a:hover {
+  color: #0d6efd;
+}

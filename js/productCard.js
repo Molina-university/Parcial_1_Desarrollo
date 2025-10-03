@@ -1,11 +1,12 @@
 // ==============================
 // productCard.js
 // Web Component <product-card>
+// Muestra la información de un producto (libro) y permite agregarlo al carrito
 // ==============================
 
 class ProductCard extends HTMLElement {
   constructor() {
-    super();
+    super();    
 
     // Creamos un Shadow DOM 
     const shadow = this.attachShadow({ mode: 'open' });
@@ -28,34 +29,7 @@ class ProductCard extends HTMLElement {
         // Inicializar después de cargar el HTML
         this.inicializar();
       })
-      .catch(err => {
-        console.error('Error cargando CSS:', err);
-        // Si falla, usar estilos por defecto
-        shadow.innerHTML = `
-          <style>
-            .card {
-              width: 180px;
-              text-align: center;
-              border: 1px solid #ddd;
-              padding: 15px;
-            }
-            img {
-              width: 120px;
-              height: 180px;
-              object-fit: cover;
-            }
-          </style>
-          
-          <div class="card">
-            <img id="cover" alt="Portada del libro" />
-            <h3 id="title"></h3>
-            <p id="author"></p>
-            <p class="price" id="price"></p>
-            <button class="add-cart">Agregar al carrito</button>
-          </div>
-        `;
-        this.inicializar();
-      });
+      .catch(err => console.error('Error cargando card.css:', err));
   }
 
   // Cuando el componente se inserta en el DOM

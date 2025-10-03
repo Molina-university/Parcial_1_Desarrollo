@@ -53,13 +53,3 @@ this.innerHTML = `
     <button class="add-cart">Agregar al carrito</button>
   </div>
 `;
-// fragmento reciclado de otro proyecto
-this.querySelector(".add-cart").addEventListener("click", () => {
-  let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
-  cart.push({
-    title: this.getAttribute("title"),
-    price: this.getAttribute("price")
-  });
-  sessionStorage.setItem("cart", JSON.stringify(cart));
-  alert("Libro agregado al carrito 🛒");
-});

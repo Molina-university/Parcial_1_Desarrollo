@@ -25,18 +25,3 @@
 #menu a:hover {
     color: #0088cc;
 }
-
-/* Estilo para la barra de redes sociales en el header */   
-.social-bar {
-  background: #111;
-  padding: 5px;
-  text-align: right;
-}
-.social-bar a {
-  color: #fff;
-  margin: 0 8px;
-  font-size: 18px;
-}
-.social-bar a:hover {
-  color: #0d6efd;
-}
