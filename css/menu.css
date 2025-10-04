@@ -1,27 +1,94 @@
+/* ==============================
+  Menu Lateral
+============================== */
+
 #menu {
-    float: left;
-    width: 200px;
-    background-color: #eee;
-    min-height: 100vh;
-    padding: 20px 10px;
-    box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100vh;
+  background: rgba(27, 38, 59, 0.95);
+  padding: 100px 20px 20px;
+  box-sizing: border-box;
+  z-index: 100;
+  box-shadow: 4px 0 15px rgba(0,0,0,0.4);
+  overflow-y: auto;
 }
 
 #menu ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #menu li {
-    margin: 10px 0;
+  margin-bottom: 15px;
 }
 
 #menu a {
-    text-decoration: none;
-    color: #222;
-    font-weight: bold;
+  text-decoration: none;
+  color: #e0e1dd;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: 'Outfit', sans-serif;
+}
+
+#menu a i {
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
 }
 
 #menu a:hover {
-    color: #0088cc;
+  background: rgba(102, 209, 198, 0.2);
+  color: #66d1c6;
+  transform: translateX(5px);
+}
+
+#menu a.active {
+  background: rgba(102, 209, 198, 0.3);
+  color: #66d1c6;
+  border-left: 3px solid #66d1c6;
+}
+
+/* Scrollbar personalizado para el menú */
+#menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+#menu::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#menu::-webkit-scrollbar-thumb {
+  background: rgba(102, 209, 198, 0.5);
+  border-radius: 10px;
+}
+
+#menu::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 209, 198, 0.7);
+}
+
+/* Responsive - ocultar en móviles */
+@media (max-width: 768px) {
+  #menu {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  
+  #menu.open {
+    transform: translateX(0);
+  }
+  
+  main {
+    margin-left: 0 !important;
+  }
 }
