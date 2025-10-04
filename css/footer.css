@@ -1,8 +1,11 @@
 #footer {
     clear: both;
-    background: #222;
-    color: #fff;
+    position: relative;
+    z-index: 2;
+    background: rgba(27, 38, 59, 0.95);
+    padding: 20px;
     text-align: center;
-    padding: 15px;
-    margin-top: 30px;
+    color: #e0e1dd;
+    margin-left: 220px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
 }
