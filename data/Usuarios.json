@@ -28,5 +28,17 @@
     "password": "clave456",
     "role": "user",
     "email": "sofia@gmail.com"
+  },
+  {
+    "username": "juan",
+    "password": "juan2025",
+    "role": "user",
+    "email": "juansilva@gmail.com"
+  },
+  {
+    "username": "laura",
+    "password": "libros789",
+    "role": "user",
+    "email": "laura@gmail.com" 
   }
 ]
