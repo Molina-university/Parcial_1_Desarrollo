@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  margin-left: 220px; /* espacio para menú lateral si existe */
+  margin-left: 220px;
   padding: 20px;
 }
 
